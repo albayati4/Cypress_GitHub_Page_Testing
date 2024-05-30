@@ -47,9 +47,9 @@
     });
   ```
 
-- I used `homePage.getExpectedLocator.should("be.visible")` to check if a button is clickable.
+- I used `homePage.getExpectedLocator.should("be.visible")` or loginPage to check if a something is visible.
 
-- I used `homePage.getExpectedLocator.type('expected input') ` or LoginPage to type anything in the input fields.
+- I used `homePage.getExpectedLocator.type('expected input') ` or loginPage to type anything in the input fields.
 
 ### _Screenshots_
 
