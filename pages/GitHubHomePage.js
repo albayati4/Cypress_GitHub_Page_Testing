@@ -16,9 +16,7 @@ class GitHubHomePage {
   }
 
   getSearchInput() {
-    return cy.get(
-      " div.search-input-container.search-with-dialog.position-relative.d-flex.flex-row.flex-items-center.mr-4.rounded > button"
-    );
+    return cy.get(".flex-items-center.mr-4.rounded > button");
   }
 
   getSignInButton() {
